@@ -26,5 +26,4 @@ def emotion_detector(text_to_analyse):
     else:
         highest = emotion_list[4]
 
-
     return {'anger':anger_score, 'disgust':disgust_score, 'fear': fear_score, 'joy':fear_score, 'joy': joy_score, 'sadness': sadness_score, 'dominant_emotion': highest}
